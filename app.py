@@ -1,4 +1,4 @@
-# this file is from on of devops repo
+# Python Flask API app file
 from flask import Flask, jsonify
 
 app = Flask(__name__)
