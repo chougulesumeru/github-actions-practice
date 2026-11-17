@@ -1,0 +1,14 @@
+name: lint
+
+on:
+ push:
+   paths: "*.py"
+
+jobs:
+  code: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout/clone the code
+        run: actions/checkout@v7
+      - name: Install the linter
+        run: pip install ruff
