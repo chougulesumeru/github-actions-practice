@@ -1,6 +1,6 @@
 # GitHub actions practice repo
 
-## workflows
+## Workflows
 ## Jobs 
 ## Steps
 ## Actions 
